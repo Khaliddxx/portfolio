@@ -48,7 +48,7 @@ class TabsTwo extends Component{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="/service">Website Developer,<span> - International Association of Dental Students IADS</span></a> 
+                                                   <a href="https://congress.iads-web.com/">Website Developer & Design Consultant<span> - International Association of Dental Students IADS</span></a> 
                                                    March 2022 - Current
                                                    {/* <ul style={{listStyleType: "square", paddingLeft: '10px'}}>
                                                        <li>
