@@ -71,18 +71,13 @@ const Home = () => {
                       ) : (
                         ""
                       )}
-                      {value.buttonText ? (
-                        <div className="slide-btn">
-                          <a
-                            className="rn-button-style--2 btn-primary-color"
-                            href={`${value.buttonLink}`}
-                          >
-                            {value.buttonText}
-                          </a>
-                        </div>
-                      ) : (
-                        ""
-                      )}
+                      <a
+                        style={{ cursor: "pointer" }}
+                        className="rn-button-style--2 btn-solid"
+                        href="#portfolio"
+                      >
+                        <span>View my Work</span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -189,7 +184,7 @@ const Home = () => {
                       className="rn-button-style--2 btn-solid"
                       onClick={() => {
                         if (item == 6) {
-                          setItem("12");
+                          setItem("17");
                           setViewMore("View Less");
                         } else {
                           setItem("6");
