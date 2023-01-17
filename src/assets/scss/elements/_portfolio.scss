@@ -21,7 +21,10 @@
     min-height: 400px;
   }
   .thumbnail-inner {
-    transition: transform 0.28s ease;
+    transition: transform 0.25s ease;
+    border: 0.5px solid #f9004d;
+    border-radius: 10px;
+    box-shadow: 6px 7px 35px 3px rgba(0, 0, 0, 0.25);
     z-index: 9;
     position: absolute;
     top: 0;
@@ -30,12 +33,13 @@
     width: 100%;
     background-size: cover;
     background-position: center;
+    // background-repeat: no-repeat;
     overflow: hidden;
-    border-radius: 5px;
+
     cursor: pointer;
     &::before {
-      background-color: #f6004c;
-      background-image: linear-gradient(#f6004c 10%, #000000 100%);
+      // background-color: #f6004c;
+      background-image: linear-gradient(#f6004c 10%, #000000 100%, 0.5);
       position: absolute;
       content: "";
       top: 0;
@@ -48,14 +52,16 @@
     }
   }
   .thumbnail {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 15rem;
     width: 100%;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     border-radius: 5px;
+
     background-color: #0a0a0a;
     background-image: url(/assets/images/portfolio/portfolio-1.jpg);
     transform: scale(1.13) translateZ(0);
@@ -195,7 +201,7 @@
       }
       .portfolio-button {
         @extend %transition;
-        margin-top: 35px;
+        // margin-top: 20px;
         transition: 0.7s;
         @media #{$large-mobile} {
           margin-top: 25px;

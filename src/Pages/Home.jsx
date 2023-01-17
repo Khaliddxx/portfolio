@@ -16,9 +16,10 @@ const SlideList = [
   {
     textPosition: "text-left",
     category: "Welcome to my World",
-    description: "",
-    buttonText: "",
-    buttonLink: "",
+    description:
+      "MERN Full-stack developer and Data Analyst with 4+ years of professional experience. Well-versed in React, C++, JavaScript, HTML5, CSS, Node.js, and Express.js. A professional with a good attitude towards leading source-controlled projects, passionate about creative UX designs, and centered on delighting users.",
+    buttonText: "View PDF",
+    buttonLink: "https://pdf.ac/1hPS3N",
   },
 ];
 const Home = () => {
@@ -40,9 +41,12 @@ const Home = () => {
               <div className="container">
                 <div className="row">
                   <div className="col-lg-12">
-                    <div className={`inner ${value.textPosition}`}>
+                    <div
+                      className={`inner ${value.textPosition}`}
+                      style={{ padding: "1rem 0" }}
+                    >
                       {value.category ? <span>{value.category}</span> : ""}
-                      <h1 className="title">
+                      <h1 className="title" style={{ marginBottom: "0.5rem" }}>
                         Hi, I’m Khalid Ahmed <br />
                         <TextLoop>
                           <span> Data Analyst</span>
@@ -53,7 +57,17 @@ const Home = () => {
                       </h1>
                       <h2>based remotely.</h2>
                       {value.description ? (
-                        <p className="description">{value.description}</p>
+                        <p
+                          className="description"
+                          style={{
+                            color: "white",
+                            // width: "50%",
+                            marginBottom: "2rem",
+                            // '@media (max-width: 800px): { width: 100%}'
+                          }}
+                        >
+                          {value.description}
+                        </p>
                       ) : (
                         ""
                       )}

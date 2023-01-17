@@ -6,18 +6,23 @@ const PortfolioListContent = [
     image: "image-15",
     category: "CEO & Developer",
     title: "Float Animation Studio",
+    techs: "React | NodeJS",
     link: "https://floatanimationstudio.com",
   },
   {
     image: "image-14",
     category: "Management & Development",
     title: "IADS Web",
+    techs:
+      "React | Node | Javascript | MongoDB | Express | SCRUM | Git | Excel| Figma",
     link: "https://iads-web.com",
   },
   {
     image: "image-13",
     category: "Design & Development",
     title: "IADS Congress",
+    techs: "React | Node | Javascript | SCRUM | Git | Excel | Figma",
+
     link: "https://congress.iads-web.com/",
   },
   {
@@ -110,12 +115,13 @@ class PortfolioList extends Component {
               </div>
               <div className="content">
                 <div className="inner">
-                  <p>{value.category}</p>
-                  <h4>
+                  <p style={{ marginBottom: "10px" }}>{value.category}</p>
+                  <h4 style={{ marginBottom: "10px" }}>
                     {/* <a href="/portfolio-details"> */}
                     {value.title}
                     {/* </a> */}
                   </h4>
+                  <p>{value.techs}</p>
                   <div className="portfolio-button">
                     <a className="rn-btn" href={value.link}>
                       View Details
