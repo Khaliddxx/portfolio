@@ -18,8 +18,8 @@ const SlideList = [
     category: "Welcome to my World",
     description:
       "MERN Full-stack developer and Data Analyst with 4+ years of professional experience. Well-versed in React, C++, JavaScript, HTML5, CSS, Node.js, and Express.js. A professional with a good attitude towards leading source-controlled projects, passionate about creative UX designs, and centered on delighting users.",
-    buttonText: "View PDF",
-    buttonLink: "https://pdf.ac/1hPS3N",
+    buttonText: "View my work",
+    buttonLink: "#portfolio",
   },
 ];
 const Home = () => {
