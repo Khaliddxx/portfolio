@@ -3,6 +3,27 @@ import { Link } from "react-router-dom";
 
 const PortfolioListContent = [
   {
+    image: "image-20",
+    category: "CTO | Visual Identity | System Design | Fullstack Development",
+    title: "Elaj",
+    techs: "React | AWS | MongoDB | Node | Figma",
+    link: "https://gpt3.khalidxah.tech",
+  },
+  {
+    image: "image-19",
+    category: "Fullstack Development | SysAdmin",
+    title: "KSM Sudan",
+    techs: "React | MongoDB | Mongoose | Express.js | DevOps | Node",
+    link: "https://gpt3.khalidxah.tech",
+  },
+  {
+    image: "image-18",
+    category: "Front End Development",
+    title: "Training Project",
+    techs: "React | Figma",
+    link: "https://gpt3.khalidxah.tech",
+  },
+  {
     image: "image-17",
     category: "Development",
     title: "IADS Mid-year Congress",
@@ -34,7 +55,7 @@ const PortfolioListContent = [
   {
     image: "image-13",
     category: "Design & Development",
-    title: "IADS Kazakhstan Congress",
+    title: "IADS Kazakh Congress",
     techs: "React | Node | Javascript | SCRUM | Git | Excel | Figma",
     link: "https://kzcongress.iads-web.com/",
   },

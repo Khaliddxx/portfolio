@@ -15,10 +15,10 @@
     min-height: 500px;
   }
   @media #{$md-layout} {
-    min-height: 450px;
+    min-height: 550px;
   }
   @media #{$sm-layout} {
-    min-height: 400px;
+    min-height: 535px;
   }
   .thumbnail-inner {
     transition: transform 0.25s ease;
@@ -121,6 +121,15 @@
     }
     &.image-17 {
       background-image: url(/assets/images/portfolio/portfolio-17.png);
+    }
+    &.image-18 {
+      background-image: url(/assets/images/portfolio/portfolio-18.png);
+    }
+    &.image-19 {
+      background-image: url(/assets/images/portfolio/portfolio-19.png);
+    }
+    &.image-20 {
+      background-image: url(/assets/images/portfolio/portfolio-20.png);
     }
 
     &::after {
@@ -336,13 +345,13 @@
   .portfolio {
     margin-top: 30px;
     @media #{$sm-layout} {
-      min-height: 400px;
+      min-height: 500px;
     }
     @media #{$md-layout} {
-      min-height: 400px;
+      min-height: 500px;
     }
     @media #{$lg-layout} {
-      min-height: 400px;
+      min-height: 500px;
     }
     .thumbnail {
       position: absolute;

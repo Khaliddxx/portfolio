@@ -17,7 +17,7 @@ const SlideList = [
     textPosition: "text-left",
     category: "Welcome to my World",
     description:
-      "MERN Full-stack developer and Data Analyst with 4+ years of professional experience. Well-versed in React, C++, JavaScript, HTML5, CSS, Node.js, and Express.js. A professional with a good attitude towards leading source-controlled projects, passionate about creative UX designs, and centered on delighting users.",
+      "MERN Full-stack developer and Data Analyst with 5+ years of professional experience. Well-versed in React, C++, JavaScript, HTML5, CSS, Node.js, AWS and Express.js. A professional with a good attitude towards leading source-controlled projects, passionate about creative UX designs, and centered on delighting users.",
     buttonText: "View my work",
     buttonLink: "#portfolio",
   },
