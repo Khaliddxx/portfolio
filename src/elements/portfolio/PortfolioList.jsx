@@ -3,18 +3,32 @@ import { Link } from "react-router-dom";
 
 const PortfolioListContent = [
   {
+    image: "image-22",
+    category: "Web Development | Web Design",
+    title: "GPT-4 Article Summarizer",
+    techs: "Vite | React | Tailwind | RapidAPI | Redux",
+    link: "https://gpt4sum.khalidxah.tech/",
+  },
+  {
+    image: "image-21",
+    category: "Web Development | Web Design",
+    title: "Assistio",
+    techs: "React | AWS | Figma",
+    link: "https://main.df2af5sh88023.amplifyapp.com/",
+  },
+  {
     image: "image-20",
     category: "CTO | Visual Identity | System Design | Fullstack Development",
     title: "Elaj",
     techs: "React | AWS | MongoDB | Node | Figma",
-    link: "https://gpt3.khalidxah.tech",
+    link: "https://elajsd.com",
   },
   {
     image: "image-19",
     category: "Fullstack Development | SysAdmin",
     title: "KSM Sudan",
     techs: "React | MongoDB | Mongoose | Express.js | DevOps | Node",
-    link: "https://gpt3.khalidxah.tech",
+    link: "https://ksmsudan.com",
   },
   {
     image: "image-18",
