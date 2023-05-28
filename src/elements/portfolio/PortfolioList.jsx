@@ -3,10 +3,17 @@ import { Link } from "react-router-dom";
 
 const PortfolioListContent = [
   {
+    image: "image-23",
+    category: "Web Development | Web Design | Copywriting",
+    title: "Code Canvas",
+    techs: "React | Next | i18 | Hostinger | SEO",
+    link: "https://codecanvas.org",
+  },
+  {
     image: "image-21",
     category: "Web Development | Web Design",
     title: "Assistio",
-    techs: "React | AWS | Figma",
+    techs: "React | AWS | Figma | i18",
     link: "https://main.df2af5sh88023.amplifyapp.com/",
   },
   {
